@@ -20,7 +20,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379190464
-ModificationTime: 1379446554
+ModificationTime: 1379449395
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -54,7 +54,7 @@ OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000201.00000000.00000000.00000000
 Lookup: 1 4 0 "'subs' Subscript lookup 0"  {"'subs' Subscript lookup 0-1" ("inferior" ) } ['subs' ('DFLT' <'dflt' > ) ]
-Lookup: 4 8 1 "'liga' Standard Ligatures lookup 0"  {"Functions"  "Sub_numbers"  } ['liga' ('DFLT' <'dflt' > ) ]
+Lookup: 4 8 1 "'liga' Standard Ligatures lookup 0"  {"Functions"  "Sub_numbers"  "Arrows"  } ['liga' ('DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0"  {"'kern' Horizontal Kerning lookup 0-1" [150,15,0] } ['kern' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 1"  {"'mark' Mark Positioning lookup 1-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -68,7 +68,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 160 32 8
+WinInfo: 64 32 8
 BeginPrivate: 8
 BlueValues 21 [0 0 662 662 742 742]
 BlueScale 8 0.039625
@@ -79,12 +79,8 @@ StemSnapH 14 [19 42 84 155]
 StemSnapV 16 [24 100 102 313]
 ExpansionFactor 4 0.06
 EndPrivate
-Grid
--1000 466 m 0
- 2000 466 l 0
-EndSplineSet
-AnchorClass2: "a1"  "'mark' Mark Positioning lookup 1-1" 
-BeginChars: 65538 42
+AnchorClass2: "aj"  "'mark' Mark Positioning lookup 1-1" "subdegree"  "'mark' Mark Positioning lookup 1-1" 
+BeginChars: 65538 49
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -145,7 +141,8 @@ Flags: HMW
 HStem: 0 19<299.5 591.5 299.5 299.5> 620 42<283.5 339.5 339.5 393.5 495.5 495.5 495.5 549.5>
 VStem: 156.5 24<492 492> 393.5 102<120 620> 708.5 24<492 492>
 CounterMasks: 1 38
-AnchorPoint: "a1" 448.5 0 basechar 0
+AnchorPoint: "aj" 0 0 basechar 0
+AnchorPoint: "subdegree" 448.5 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -162,12 +159,12 @@ SplineSet
  495.5 109 l 2
  495.5 36 509.5 23 591.5 19 c 1
  591.5 0 l 1
- 299.5 0 l 1
+ 494.167 -0 396.833 0 299.5 0 c 1
  299.5 19 l 1
  382.5 24 393.5 35 393.5 120 c 2
  393.5 620 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: grave
@@ -225,7 +222,8 @@ Flags: HMW
 HStem: 0 19<299.5 591.5 299.5 299.5> 620 42<283.5 339.5 339.5 393.5 495.5 495.5 495.5 549.5>
 VStem: 156.5 24<492 492> 393.5 102<120 145 145 145 184 187 226 620> 708.5 24<492 492>
 CounterMasks: 1 38
-AnchorPoint: "a1" 448.5 0 basechar 0
+AnchorPoint: "aj" 0 0 basechar 0
+AnchorPoint: "subdegree" 448.5 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -255,7 +253,7 @@ SplineSet
  393.5 184 l 1
  393.5 620 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "Functions" T grave
 EndChar
@@ -429,7 +427,7 @@ GlyphClass: 4
 Flags: W
 HStem: -291 41<80 183> -58 42<44.1091 121.55>
 VStem: 132 63<-151.691 -67.0819>
-AnchorPoint: "a1" 108 0 mark 0
+AnchorPoint: "subdegree" 108 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -462,7 +460,7 @@ GlyphClass: 4
 Flags: W
 HStem: -238.301 36.7207<39.0195 126.14 171.5 207.5>
 VStem: 126.14 45.3604<-296.621 -238.301 -201.58 -85.6602>
-AnchorPoint: "a1" 108 0 mark 0
+AnchorPoint: "subdegree" 108 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -495,7 +493,7 @@ GlyphClass: 4
 Flags: W
 HStem: -295 31<61.4731 136.914> -58 42<84 185.906>
 VStem: 156 48<-251.284 -161.374>
-AnchorPoint: "a1" 108 0 mark 0
+AnchorPoint: "subdegree" 108 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -531,7 +529,7 @@ GlyphClass: 4
 Flags: W
 HStem: -296 18<88.2296 139.098> -138 25<78.8468 134.898> -34 20<157.338 200>
 VStem: 5 55<-253.867 -124.963> 158 54<-264.148 -151.282>
-AnchorPoint: "a1" 108 0 mark 0
+AnchorPoint: "subdegree" 108 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -561,7 +559,7 @@ GlyphClass: 4
 Flags: W
 HStem: -57 39<23.2791 156>
 VStem: 8 201
-AnchorPoint: "a1" 108 0 mark 0
+AnchorPoint: "subdegree" 108 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -588,7 +586,7 @@ GlyphClass: 4
 Flags: W
 HStem: -296 18<76.9717 137.495> -30 16<70.3451 130.412>
 VStem: 9 48<-270.465 -182.806 -106.735 -35.7533> 152 55<-273.143 -200.429> 152 42<-111.999 -38.4195>
-AnchorPoint: "a1" 108 0 mark 0
+AnchorPoint: "subdegree" 108 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -625,7 +623,7 @@ GlyphClass: 4
 Flags: W
 HStem: -299 20<17 59.5229> -200 26<79.9794 137.983> -33 18<77.6565 128.176>
 VStem: 5 54<-161.387 -47.707> 156 56<-187.382 -58.0226>
-AnchorPoint: "a1" 108 0 mark 0
+AnchorPoint: "subdegree" 108 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -654,7 +652,7 @@ GlyphClass: 4
 Flags: W
 HStem: -297 20<83.7662 129.782> -33 18<84.7992 129.477>
 VStem: 3 51<-245.992 -62.9062> 156 57<-244.231 -63.7581>
-AnchorPoint: "a1" 108 0 mark 0
+AnchorPoint: "subdegree" 108 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -681,7 +679,7 @@ GlyphClass: 4
 Flags: W
 HStem: -291 17<44 76.6766 138.673 173>
 VStem: 80 54<-272.275 -60.0037>
-AnchorPoint: "a1" 108 0 mark 0
+AnchorPoint: "subdegree" 108 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -711,7 +709,7 @@ GlyphClass: 4
 Flags: W
 HStem: -297 31<64.247 134.997> -56 38<54.0773 129.506>
 VStem: 132 51<-114.092 -58.2999> 147 54<-257.946 -175.946>
-AnchorPoint: "a1" 108 0 mark 0
+AnchorPoint: "subdegree" 108 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1037,6 +1035,8 @@ Width: 889
 Flags: W
 HStem: 0 37<303.591 486.974> 0 19<110 165.978> 625 37<303.033 475.667> 643 19<110 165.416>
 VStem: 198 102<41.3888 621.94> 670 109<210.722 451.324>
+AnchorPoint: "aj" 0 0 basechar 0
+AnchorPoint: "subdegree" 487.333 0.166667 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1066,6 +1066,7 @@ Width: 889
 Flags: W
 HStem: 20 2<300 445> 635 41<371.969 517.205>
 VStem: 249 86<484.127 588.923> 250 22<-13 12.7146> 568 101<84.0294 202.661>
+AnchorPoint: "aj" 0 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1090,7 +1091,7 @@ SplineSet
  293 77 356 22 445 22 c 0
  518 22 568 68 568 135 c 0xd8
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: M
@@ -1099,6 +1100,8 @@ Width: 889
 Flags: W
 HStem: 0 19<19 71.5662 202.313 254 590 646.112 817.474 870> 643 19<21 81.4103 817.031 870>
 VStem: 116 44<43.3196 550> 681 102<35.3481 571.481>
+AnchorPoint: "subdegree" 443 0 basechar 0
+AnchorPoint: "aj" 0 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1139,6 +1142,8 @@ Flags: W
 HStem: 0 15<65 108.999 242.193 287 335 376.029 515.503 559 605 643.007 798 824> 398 17<68 96.9731> 408 52<295.541 382.777 553.129 652.802>
 VStem: 135 84<24.384 372.979 383 399.885> 403 84<26.085 373.205> 671 84<25.1622 390.068>
 CounterMasks: 1 1c
+AnchorPoint: "subdegree" 444 0 basechar 0
+AnchorPoint: "aj" 0 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1180,7 +1185,7 @@ SplineSet
  135 386 126 402 100 402 c 0
  89 402 81 401 68 398 c 1xdc
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: p
@@ -1226,6 +1231,8 @@ Width: 889
 Flags: W
 HStem: 0 19<21 81.4103 817.031 870> 643 19<19 71.5662 202.313 254 590 646.112 817.474 870>
 VStem: 116 44<112 618.68> 681 102<90.5185 626.652>
+AnchorPoint: "subdegree" 444 0 basechar 0
+AnchorPoint: "aj" 0 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1266,6 +1273,8 @@ Flags: W
 HStem: 0 52<295.553 382.777 553.129 652.802> 45 17<68 96.9731> 445 15<65 108.999 242.193 287 335 376.029 515.503 559 605 643.007 798 824>
 VStem: 135 84<60.1146 77 86.8858 435.616> 403 84<86.7954 433.915> 671 84<69.9324 434.838>
 CounterMasks: 1 1c
+AnchorPoint: "subdegree" 444 0 basechar 0
+AnchorPoint: "aj" 0 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1313,10 +1322,11 @@ EndChar
 StartChar: Scedilla
 Encoding: 350 350 39
 Width: 889
-Flags: HW
+Flags: W
 HStem: 20 2<300 445> 635 41<371.969 517.205>
 VStem: 249 86<484.127 588.923> 250 22<-13 12.7146> 568 101<84.0294 202.661>
-AnchorPoint: "a1" 492 0 basechar 0
+AnchorPoint: "aj" 0 0 basechar 0
+AnchorPoint: "subdegree" 492 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1349,6 +1359,7 @@ SplineSet
  333 49 383 22 445 22 c 0
  518 22 568 68 568 135 c 0xd8
 EndSplineSet
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "Functions" S grave
 EndChar
@@ -1356,14 +1367,15 @@ EndChar
 StartChar: Dcroat
 Encoding: 272 272 40
 Width: 889
-Flags: HW
-HStem: 105 156
-VStem: 141 313
-AnchorPoint: "a1" 466.75 0.249786 basechar 0
+Flags: W
+HStem: 0 37<303.591 490.231> 0 19<110 165.978> 625 37<303.033 475.667> 643 19<110 165.416>
+VStem: 198 102<41.3888 621.94> 670 109<209.165 451.324>
+AnchorPoint: "aj" 0 0 basechar 0
+AnchorPoint: "subdegree" 466.75 0.249786 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-670 327 m 0
+670 327 m 0xac
  670 461 606 625 352 625 c 0
  311 625 300 617 300 586 c 2
  300 78 l 2
@@ -1372,23 +1384,23 @@ SplineSet
  548.5 230 l 1
  569.024 260.508 l 1
  652.07 204.459 l 1
- 663.772 238.903 670 279.502 670 327 c 0
+ 663.772 238.903 670 279.502 670 327 c 0xac
 729.399 152.267 m 1
  837.776 79.1211 l 1
  817.53 50 l 1
  708.485 122.959 l 1
- 651.559 52.8365 553.915 -3.8147e-06 394 0 c 2
+ 651.559 52.8365 553.915 -3.8147e-06 394 0 c 2xac
  110 0 l 1
  110 19 l 1
  186 24 198 37 198 109 c 2
  198 553 l 2
  198 627 189 636 110 643 c 1
- 110 662 l 1
+ 110 662 l 1x5c
  380 662 l 2
  697 662 779 479 779 334 c 0
  779 277.34 766.02 210.902 729.399 152.267 c 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "Functions" D grave
 EndChar
@@ -1402,6 +1414,224 @@ LayerCount: 2
 Fore
 Refer: 10 32 N 1 0 0 1 0 0 2
 Validated: 1
+EndChar
+
+StartChar: J
+Encoding: 74 74 42
+Width: 889
+Flags: WO
+HStem: -181 37<407.591 590.974> -181 19<214 269.978> 0 37<211.591 302> 0 19<18 73.9777> 8 48<404 453.529> 444 37<407.033 543.499> 462 19<257 289.695> 625 37<211.033 387.75> 643 19<18 73.4163>
+VStem: 106 102<41.3888 621.94> 302 102<-139.611 0 56 440.775> 578 109<212.589 370.655> 774 109<29.7222 272.386>
+AnchorPoint: "aj" 0 0 basechar 0
+AnchorPoint: "subdegree" 96 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+883 153 m 0x0178
+ 883 15 806 -181 498 -181 c 2x8178
+ 214 -181 l 1
+ 214 -162 l 1
+ 290 -157 302 -144 302 -72 c 2
+ 302 0 l 1x6078
+ 18 0 l 1
+ 18 19 l 1
+ 94 24 106 37 106 109 c 2
+ 106 553 l 2
+ 106 627 97 636 18 643 c 1
+ 18 662 l 1x10f8
+ 288 662 l 2
+ 520 662 626 564 666 455 c 1
+ 834 399 883 265 883 153 c 0x0178
+685 371 m 1
+ 686 359 687 346 687 334 c 0
+ 687 213 628 47 404 8 c 1x8878
+ 404 -103 l 2
+ 404 -135 416 -144 456 -144 c 0
+ 644 -144 774 -71 774 146 c 0
+ 774 224 753 311 685 371 c 1
+404 56 m 1
+ 511 90 578 171 578 327 c 0
+ 578 361 574 397 563 432 c 1
+ 532 440 496 444 456 444 c 0x0c78
+ 415 444 404 436 404 405 c 2
+ 404 56 l 1
+302 38 m 1
+ 302 372 l 2
+ 302 446 299 462 257 462 c 1
+ 257 481 l 1x2378
+ 484 481 l 2
+ 505 481 526 480 545 479 c 1
+ 504 560 420 625 260 625 c 0
+ 219 625 208 617 208 586 c 2
+ 208 78 l 2
+ 208 46 220 37 260 37 c 0x2578
+ 274 37 288 37 302 38 c 1
+EndSplineSet
+EndChar
+
+StartChar: questiondown
+Encoding: 191 191 43
+Width: 889
+GlyphClass: 4
+Flags: W
+HStem: -330 48<142 1140> 346.502 47.498<1190 1726.04>
+VStem: 90 52<-282 576> 1140 50<-282 346.502>
+AnchorPoint: "aj" 200 0 mark 0
+LayerCount: 2
+Back
+SplineSet
+200 667 m 1
+ 1089 667 l 1
+ 1089 0 l 1
+ 200 0 l 1
+ 200 667 l 1
+EndSplineSet
+Fore
+SplineSet
+1727.05 346.502 m 1
+ 1190 346.502 l 1
+ 1190 -282 l 1
+ 1190 -330 l 1
+ 90 -330 l 1
+ 90 -282 l 1
+ 90 576 l 1
+ 142 576 l 1
+ 142 -282 l 1
+ 1140 -282 l 1
+ 1140.79 394 l 1
+ 1190 394 l 1
+ 1726.04 394 l 1
+ 1602.88 541 l 1
+ 1633.88 574 l 1
+ 1829.88 370 l 1
+ 1633.88 164 l 1
+ 1602.88 197 l 1
+ 1727.05 346.502 l 1
+EndSplineSet
+LCarets2: 1 0 
+Ligature2: "Arrows" hyphen greater
+EndChar
+
+StartChar: hyphen
+Encoding: 45 45 44
+Width: 333
+Flags: W
+HStem: 194 63<39 285>
+VStem: 39 246<194 257>
+LayerCount: 2
+Fore
+SplineSet
+39 257 m 1
+ 285 257 l 1
+ 285 194 l 1
+ 39 194 l 1
+ 39 257 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: greater
+Encoding: 62 62 45
+Width: 564
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+28 516 m 1
+ 536 286 l 1
+ 536 220 l 1
+ 28 -10 l 1
+ 28 62 l 1
+ 448 253 l 1
+ 28 444 l 1
+ 28 516 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: less
+Encoding: 60 60 46
+Width: 564
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+536 -10 m 1
+ 28 220 l 1
+ 28 286 l 1
+ 536 516 l 1
+ 536 444 l 1
+ 116 253 l 1
+ 536 62 l 1
+ 536 -10 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: A
+Encoding: 65 65 47
+Width: 889
+Flags: HWO
+AnchorPoint: "aj" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+790 19 m 1
+ 790 0 l 1
+ 535 0 l 1
+ 535 19 l 1
+ 588 20 605 28 605 53 c 0
+ 605 67 598 93 586 120 c 2
+ 545 216 l 1
+ 283 216 l 1
+ 237 99 l 2
+ 232 86 229 72 229 60 c 0
+ 229 32 249 19 297 19 c 1
+ 297 0 l 1
+ 99 0 l 1
+ 99 19 l 1
+ 147 21 161 36 223 183 c 2
+ 431 674 l 1
+ 451 674 l 1
+ 700 106 l 2
+ 732.866 31.0283 745 22 790 19 c 1
+300 257 m 1
+ 531 257 l 1
+ 415 532 l 1
+ 300 257 l 1
+EndSplineSet
+EndChar
+
+StartChar: N
+Encoding: 78 78 48
+Width: 889
+Flags: HW
+AnchorPoint: "aj" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+792 643 m 1
+ 731 637 697 632 697 515 c 2
+ 697 -11 l 1
+ 680 -11 l 1
+ 238 539 l 1
+ 238 147 l 2
+ 238 46 255 23 332 19 c 1
+ 332 0 l 1
+ 97 0 l 1
+ 97 19 l 1
+ 180 25 194 44 194 147 c 2
+ 194 588 l 1
+ 154 635 140 643 97 643 c 1
+ 97 662 l 1
+ 268 662 l 1
+ 653 178 l 1
+ 653 515 l 2
+ 653 619 634 637 557 643 c 1
+ 557 662 l 1
+ 792 662 l 1
+ 792 643 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
