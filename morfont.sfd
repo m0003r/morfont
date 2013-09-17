@@ -6,8 +6,8 @@ Weight: Medium
 Copyright: Created by m03r, with FontForge 2.0 (http://fontforge.sf.net)
 Version: 001.000
 ItalicAngle: 0
-UnderlinePosition: -47.5
-UnderlineWidth: 23.3333
+UnderlinePosition: -47
+UnderlineWidth: 23
 Ascent: 667
 Descent: 333
 sfntRevision: 0x00010000
@@ -20,7 +20,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1379190464
-ModificationTime: 1379445590
+ModificationTime: 1379446554
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -54,7 +54,7 @@ OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000201.00000000.00000000.00000000
 Lookup: 1 4 0 "'subs' Subscript lookup 0"  {"'subs' Subscript lookup 0-1" ("inferior" ) } ['subs' ('DFLT' <'dflt' > ) ]
-Lookup: 4 8 1 "'liga' Standard Ligatures lookup 0"  {"'liga' Standard Ligatures lookup 0 subtable"  } ['liga' ('DFLT' <'dflt' > ) ]
+Lookup: 4 8 1 "'liga' Standard Ligatures lookup 0"  {"Functions"  "Sub_numbers"  } ['liga' ('DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0"  {"'kern' Horizontal Kerning lookup 0-1" [150,15,0] } ['kern' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 1"  {"'mark' Mark Positioning lookup 1-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -68,7 +68,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 32 8
+WinInfo: 160 32 8
 BeginPrivate: 8
 BlueValues 21 [0 0 662 662 742 742]
 BlueScale 8 0.039625
@@ -180,11 +180,11 @@ VStem: 141 313
 LayerCount: 2
 Fore
 SplineSet
-454 228 m 5
- 154 105 l 5
- 141 138 l 5
- 440 262 l 5
- 454 228 l 5
+454 228 m 1
+ 154 105 l 1
+ 141 138 l 1
+ 440 262 l 1
+ 454 228 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -257,7 +257,7 @@ SplineSet
 EndSplineSet
 Validated: 524289
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" T grave
+Ligature2: "Functions" T grave
 EndChar
 
 StartChar: second_1
@@ -289,7 +289,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" h grave
+Ligature2: "Functions" h grave
 EndChar
 
 StartChar: second_2
@@ -325,7 +325,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0 
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" h grave grave
+Ligature2: "Functions" h grave grave
 EndChar
 
 StartChar: second_3
@@ -365,7 +365,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 3 0 0 0 
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" h grave grave grave
+Ligature2: "Functions" h grave grave grave
 EndChar
 
 StartChar: second_4
@@ -410,7 +410,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 4 0 0 0 0 
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" h grave grave grave grave
+Ligature2: "Functions" h grave grave grave grave
 EndChar
 
 StartChar: space
@@ -421,7 +421,7 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2082
+StartChar: sub_2
 Encoding: 8322 8322 11
 Width: 216
 VWidth: 516
@@ -451,9 +451,10 @@ SplineSet
  9 -98 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "Sub_numbers" underscore two
 EndChar
 
-StartChar: uni2084
+StartChar: sub_4
 Encoding: 8324 8324 12
 Width: 194
 VWidth: 752
@@ -483,9 +484,10 @@ SplineSet
  126.14 -201.58 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "Sub_numbers" underscore four
 EndChar
 
-StartChar: uni2085
+StartChar: sub_5
 Encoding: 8325 8325 13
 Width: 216
 VWidth: 517
@@ -518,9 +520,10 @@ SplineSet
  152 -96 204 -126 204 -192 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "Sub_numbers" underscore five
 EndChar
 
-StartChar: uni2086
+StartChar: sub_6
 Encoding: 8326 8326 14
 Width: 216
 VWidth: 516
@@ -547,9 +550,10 @@ SplineSet
  158 -167 137 -138 102 -138 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "Sub_numbers" underscore six
 EndChar
 
-StartChar: uni2087
+StartChar: sub_7
 Encoding: 8327 8327 15
 Width: 216
 VWidth: 517
@@ -573,9 +577,10 @@ SplineSet
  209 -18 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "Sub_numbers" underscore seven
 EndChar
 
-StartChar: uni2088
+StartChar: sub_8
 Encoding: 8328 8328 16
 Width: 216
 VWidth: 516
@@ -609,9 +614,10 @@ SplineSet
  53 -89 70 -105 110 -126 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "Sub_numbers" underscore eight
 EndChar
 
-StartChar: uni2089
+StartChar: sub_9
 Encoding: 8329 8329 17
 Width: 216
 VWidth: 515
@@ -638,9 +644,10 @@ SplineSet
  59 -146 79 -174 114 -174 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "Sub_numbers" underscore nine
 EndChar
 
-StartChar: uni2080
+StartChar: sub_0
 Encoding: 8320 8320 18
 Width: 216
 GlyphClass: 4
@@ -663,9 +670,10 @@ SplineSet
  156 -74 141 -33 108 -33 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "Sub_numbers" underscore zero
 EndChar
 
-StartChar: uni2081
+StartChar: sub_1
 Encoding: 8321 8321 19
 Width: 216
 VWidth: 516
@@ -692,9 +700,10 @@ SplineSet
  134 -268 141 -272 173 -274 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "Sub_numbers" underscore one
 EndChar
 
-StartChar: uni2083
+StartChar: sub_3
 Encoding: 8323 8323 20
 Width: 216
 VWidth: 515
@@ -725,8 +734,7 @@ SplineSet
  128 -266 147 -246 147 -219 c 0xd0
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" underscore three
-LCarets2: 1 88 
+Ligature2: "Sub_numbers" underscore three
 EndChar
 
 StartChar: three
@@ -756,7 +764,7 @@ SplineSet
  43 64 58 78 81 78 c 0xe8
 EndSplineSet
 Validated: 1
-Substitution2: "'subs' Subscript lookup 0-1" uni2083
+Substitution2: "'subs' Subscript lookup 0-1" sub_3
 EndChar
 
 StartChar: zero
@@ -1305,13 +1313,14 @@ EndChar
 StartChar: Scedilla
 Encoding: 350 350 39
 Width: 889
-Flags: W
-HStem: -13 35<368.783 446.5 482.5 511.688> 20 2<300 445> 635 41<371.969 517.205>
-VStem: 249 86<484.127 588.923> 250 22<-13 12.7146> 446.5 36<-121.3 -12.4748 26.4434 138> 568 101<84.1003 202.661>
+Flags: HW
+HStem: 20 2<300 445> 635 41<371.969 517.205>
+VStem: 249 86<484.127 588.923> 250 22<-13 12.7146> 568 101<84.0294 202.661>
+AnchorPoint: "a1" 492 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-568 135 m 0xae
+568 135 m 0xd8
  568 306 249 300 249 505 c 0
  249 611 333 676 422 676 c 0
  496 676 541 642 572 642 c 0
@@ -1320,76 +1329,79 @@ SplineSet
  647 463 l 1
  622 463 l 1
  588 587 512 635 439 635 c 0
- 377 635 335 597 335 542 c 0
+ 377 635 335 597 335 542 c 0xe8
  335 488 377 444 482 386 c 1
  614 315 669 250 669 168 c 0
- 669 70.2891 588.905 -5.82422 482.5 -13.3828 c 1
- 482.5 -121.3 l 5
- 446.5 -121.3 l 5
- 446.5 -13.4736 l 1
- 371.979 -9.17383 334.274 20 300 20 c 0x76
+ 669 65 580 -14 465 -14 c 0
+ 378 -14 337 20 300 20 c 0
  285 20 273 6 272 -13 c 1
  250 -13 l 1
+ 236 84 l 1
+ 104 30 l 1
+ 92 63 l 1
+ 231 121 l 1
  220 199 l 1
  243 199 l 1
- 293 77 356 22 445 22 c 0
- 445.501 22 446.001 22.0068 446.5 22.0068 c 2
- 446.5 138 l 1
- 482.5 138 l 1
- 482.5 26.4434 l 1
- 534.582 39.4863 568 80.2256 568 135 c 0xae
+ 252 176 262 156 272 138 c 1
+ 390 187 l 1
+ 404 153 l 1
+ 292 107 l 1
+ 333 49 383 22 445 22 c 0
+ 518 22 568 68 568 135 c 0xd8
 EndSplineSet
-Validated: 524289
 LCarets2: 1 0 
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" S grave
+Ligature2: "Functions" S grave
 EndChar
 
 StartChar: Dcroat
 Encoding: 272 272 40
 Width: 889
-Flags: W
-HStem: 0 37<303.591 424.86> 0 19<110 165.978> 3.37402 43.751<461.189 527.27> 625 37<303.033 475.667> 643 19<110 165.416>
-VStem: 198 102<41.3888 621.94> 425.553 35.4639<-114 0.688477 47.125 145.828> 670 109<213.612 451.324>
+Flags: HW
+HStem: 105 156
+VStem: 141 313
+AnchorPoint: "a1" 466.75 0.249786 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-670 327 m 0x27
+670 327 m 0
  670 461 606 625 352 625 c 0
  311 625 300 617 300 586 c 2
  300 78 l 2
- 300 46 312 37 352 37 c 0x97
- 377.405 37 401.751 38.333 424.86 41.1748 c 1
- 424.5 145.828 l 1
- 461.27 145.828 l 1
- 461.189 47.125 l 1
- 588.479 73.6211 670 155.16 670 327 c 0x27
-425.041 0.688477 m 1
- 414.964 0.233398 404.62 0 394 0 c 2x87
+ 300 46 312 37 352 37 c 0
+ 484.355 37 587.963 73.1815 637.7 170.319 c 1
+ 548.5 230 l 1
+ 569.024 260.508 l 1
+ 652.07 204.459 l 1
+ 663.772 238.903 670 279.502 670 327 c 0
+729.399 152.267 m 1
+ 837.776 79.1211 l 1
+ 817.53 50 l 1
+ 708.485 122.959 l 1
+ 651.559 52.8365 553.915 -3.8147e-06 394 0 c 2
  110 0 l 1
  110 19 l 1
  186 24 198 37 198 109 c 2
  198 553 l 2
  198 627 189 636 110 643 c 1
- 110 662 l 1x4f
+ 110 662 l 1
  380 662 l 2
  697 662 779 479 779 334 c 0
- 779 206.632 713.407 29.8555 461.143 3.37402 c 1x37
- 461.017 -114.52 l 1
- 425.553 -114 l 1
- 425.382 -75.7705 425.212 -37.541 425.041 0.688477 c 1
+ 779 277.34 766.02 210.902 729.399 152.267 c 1
 EndSplineSet
 Validated: 524289
-Ligature2: "'liga' Standard Ligatures lookup 0 subtable" D grave
+LCarets2: 1 0 
+Ligature2: "Functions" D grave
 EndChar
 
 StartChar: uni00A0
 Encoding: 160 160 41
 Width: 600
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 10 32 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
