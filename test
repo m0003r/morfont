@@ -1,0 +1,6 @@
+#!/bin/bash
+
+fc-cache -fv /home/m03r/.fonts/m
+killall firefox
+firefox test.html > /dev/null 2>/dev/null &
+
